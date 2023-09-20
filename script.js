@@ -1,7 +1,11 @@
 function previous(){
+    const a = document.querySelector('.slider').offsetWidth;
+    document.querySelector('.slider-content').scrollLeft -= a
 
 }
-
-function next(){
-    document.querySelector('.slider-content').scrollLeft += 20
+ 
+function next() {
+    const a = document.querySelector('.slider').offsetWidth;
+    document.querySelector('.slider-content').scrollLeft += a;
 }
+
