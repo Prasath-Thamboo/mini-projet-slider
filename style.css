@@ -1,0 +1,32 @@
+.slider {
+    height: 300px; 
+    width: 600px;
+    position: relative;
+}
+
+.slider-nav{
+    position : absolute
+}
+
+.slider-content {
+    display: flex;
+    overflow: hidden;
+    height: 100%; 
+    width: 100%;
+
+}
+
+.slider-content img{
+    height: 100%; 
+    width: 100%;
+
+}
+
+.slider-content-items {
+    height: 100%; 
+    min-width: 100%;
+
+}
+
+
+
